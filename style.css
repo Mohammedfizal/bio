@@ -1,0 +1,95 @@
+body{
+    display: block;
+    overflow-x:hidden;
+}
+ nav{
+     background-color: #fff;
+ }
+
+ .navbar-nav{
+     font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: aqua;
+    justify-content: space-between;
+
+ }
+ nav #navbarNav{
+     color: blue;
+     font-size: 22px;
+     margin: auto 10px;
+
+ }
+
+ nav ul li a:hover{
+     color:whitesmoke;
+ }
+
+ section{
+     padding-top: 50px;
+     padding-bottom: 50px;
+ }
+ section h1{
+     text-transform: uppercase;
+     font-weight: 900;
+     color: blueviolet;
+     text-align: left;
+     margin-bottom:20px;
+
+ }
+
+ section p{
+     font-size: 16px;
+     font-weight: 300;
+ }
+
+ button{
+     max-width: 50%;
+     border-radius: 50px;
+ }
+
+#hero .col{
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+#hero.img-col{
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+
+#hero img{
+    max-width: 130%;
+    width: 130%;
+}
+
+
+#hero.card{
+    box-shadow: 11px 7px 16px #fff;
+    border: 0;
+    text-align: center;
+}
+
+#hero.icon{
+    width: 15px;
+    height: 15px;
+    margin-bottom:10px;
+
+}
+
+#project.project{
+    margin-bottom: 50PX;
+}
+
+#contacts{
+    text-align: center;
+    background-color: blueviolet;
+    color: #fff;
+
+}
+#contacts h1{
+    text-align: center;
+    color: #fff;
+
+}
